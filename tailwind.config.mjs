@@ -1,3 +1,5 @@
+import { Raleway } from 'next/font/google';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +12,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        raleway: ["Raleway", "serif"],
+        lato: ["Lato", "serif"],
+      },
+      backgroundColor: {
+        blue: "#111826",
+        green: "#A9D3A9",
+        lighGreen: "#f8faf7",
+      },
+      textColor: {
+        green: "#A9D3A9"
       },
     },
   },

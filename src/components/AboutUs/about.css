@@ -1,0 +1,23 @@
+.small-ring-animation{
+    transform: translate(-300px, -500px);
+    animation: small-ring-animate linear both;
+    animation-timeline: scroll();
+}
+
+@keyframes small-ring-animate{
+    20%{
+        transform: none;
+    }
+}
+
+.big-ring-animation{
+    transform: translate(-355px, 300px);
+    animation: big-ring-animate linear both;
+    animation-timeline: scroll();
+}
+
+@keyframes big-ring-animate{
+    30%{
+        transform: none;
+    }
+}

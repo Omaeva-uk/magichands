@@ -1,0 +1,12 @@
+.testimonial-big-ring{
+    
+    animation: testi-ring-animate linear both;
+    animation-timeline: scroll();
+}
+
+@keyframes testi-ring-animate{
+    
+    10%{
+        transform: translateY(-500px);
+    }
+}

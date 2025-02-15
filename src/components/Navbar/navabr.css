@@ -1,0 +1,8 @@
+
+.full-nav li{
+    transition: all;
+}
+
+.full-nav li:hover{
+    scale: 1.05;
+}

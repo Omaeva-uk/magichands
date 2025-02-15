@@ -1,0 +1,18 @@
+.pricing-small-ring{
+    transform: translateY(-100px);
+    animation: pricing-small-ring linear both;
+    animation-timeline: scroll();
+}
+
+@keyframes pricing-small-ring{
+    40%{
+        transform: none;
+    }
+}
+
+
+
+
+.pricing-big-ring{
+
+}
