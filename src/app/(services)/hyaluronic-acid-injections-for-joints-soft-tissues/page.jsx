@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="pt-16">
       <div>
-      <div className="grid grid-cols-2 gap-7 items-end">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-end">
             <div>
               <p className=" uppercase tracking-widest mb-5">Treatment</p>
               <h1 className="text-5xl leading-tight font-semibold max-w-2xl">

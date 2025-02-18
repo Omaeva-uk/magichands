@@ -16,7 +16,7 @@ const Pricing = () => {
                             ) : (
                                 <div>
                                  <div><Image src="/assets/chakra-img.png" width={30} height={30} alt="Magichands pricing icon" /></div>
-                                <h4 className="mt-5 text-md font-medium mb-3">{item.treatment}</h4>
+                                <h3 className="mt-5 text-md font-medium mb-3">{item.treatment}</h3>
                                 <p className="text-3xl font-semibold">{item.price}</p>
                                 {
                                     item?.info && <p className="text-xs">{item.info}</p>
