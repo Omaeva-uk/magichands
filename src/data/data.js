@@ -30,27 +30,45 @@ const servicesData = {
     serviceCards: [
         {
             id: 1,
+            href: "/diagnostic-musculoskeletal-ultrasound",
             img: "/assets/services/service-card-img-1.png",
-            title: "Sports Injury Management",
-            para: "From sprains to fractures, we help athletes recover faster with expert physiotherapy.",
+            title: "Diagnostic musculoskeletal ultrasound",
+            para: "A diagnostic musculoskeletal ultrasound (MSK ultrasound) is a non-invasive imaging technique",
         },
         {
             id: 2,
+            href: "/extracorporeal-shockwave-therapy",
             img: "/assets/services/service-card-img-2.png",
-            title: "Personalized Treatment Plans",
-            para: "Tailored care designed to relieve pain, restore movement, and speed up recovery.",
+            title: "Extracorporeal Shockwave Therapy (ESWT)",
+            para: "Extracorporeal Shockwave Therapy (ESWT) is a non-invasive medical treatment that uses acoustic waves",
         },
         {
             id: 3,
+            href: "/corticosteroid-injections",
             img: "/assets/services/service-card-img-3.png",
-            title: "Comprehensive Care",
-            para: "Holistic solutions to heal, strengthen, and prevent injuries with expert support.",
+            title: "Corticosteroid injections",
+            para: "Corticosteroid injections are a common medical treatment used to reduce inflammation",
         },
         {
             id: 4,
+            href: "/hyaluronic-acid-injections-for-joints-soft-tissues",
             img: "/assets/services/service-card-img-4.png",
-            title: "Cutting-Edge Therapy",
-            para: "Advanced techniques and innovative treatments to optimize your recovery process.",
+            title: "Hyaluronic Acid Injections for Joints & Soft Tissues",
+            para: "Hyaluronic acid (HA) injections are commonly used to relieve joint pain and improve soft tissue",
+        },
+        {
+            id: 5,
+            href: "/prolotherapy-musculoskeletal-treatment",
+            img: "/assets/services/service-card-img-4.png",
+            title: "Prolotherapy & Musculoskeletal Treatment",
+            para: "Prolotherapy (proliferative therapy) is a regenerative injection treatment used to stimulate healing",
+        },
+        {
+            id: 6,
+            href: "/arthrosamid",
+            img: "/assets/services/service-card-img-4.png",
+            title: "Arthrosamid",
+            para: "Arthrosamid ® is a novel treatment designed for managing knee osteoarthritis, providing an effective alternative to current therapies.",
         },
     ]
 }
