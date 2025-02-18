@@ -13,7 +13,7 @@ const Testimonial = () => {
               <div data-aos="fade-in" key={item.id} className={`${item.id === 2 ? 'bg-green' : item.id === 3 ? 'bg-green' : 'bg-lighGreen' } xl:p-12 lg:p-6 p-4 flex flex-col justify-center rounded-3xl `}>
                 <div className="flex gap-5 items-center">
                   <Image src={item.avatar} width={40} height={40} alt={`Testimonial by ${item.name}`} />
-                  <h4>{item.name}</h4>
+                  <h3>{item.name}</h3>
                 </div>
                 <p className="mt-5 max-lg:text-sm max-w-xs ">{item.comment}</p>
               </div>

@@ -15,7 +15,7 @@ const latoFont = Lato({
 
 export const metadata = {
   title: "Magichands Physiotherapist",
-  description: "",
+  description: "Trusted physiotherapy clinic in the UK offering tailored treatments for pain relief, injury recovery, and improved mobility. Start your journey to better health today!",
 };
 
 export default async function RootLayout({ children }) {
