@@ -1,6 +1,6 @@
 
 import {Raleway, Lato } from "next/font/google";
-import { OfferBanner, Navbar, Footer, CookieConsentBanner, AosAnimation } from "@/components";
+import { OfferBanner, Navbar, Footer, CookieConsentBanner, AosAnimation, Preloader } from "@/components";
 import "./globals.css";
 
 
@@ -35,7 +35,7 @@ export default async function RootLayout({ children }) {
         </main>
         <Footer />
         <CookieConsentBanner />
-        
+        <Preloader />
       </body>
     </html>
   );

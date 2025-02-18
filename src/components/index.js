@@ -12,8 +12,9 @@ import ModalPopup from "./ModalPopup/ModalPopup";
 import CookieConsentBanner from "./CookieConsentBanner";
 import AosAnimation from "./AosAnimation";
 import Pricing from "./Pricing/Pricing";
+import Preloader from "./Preloader/Preloader";
 
 
 export {OfferBanner, Navbar, Hero, PrimaryButton, AboutUs, Services, 
     Cta, Testimonial, BookAppointment, Footer, ModalPopup,
-     CookieConsentBanner, AosAnimation, Pricing};
+     CookieConsentBanner, AosAnimation, Pricing, Preloader};

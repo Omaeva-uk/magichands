@@ -28,7 +28,7 @@ const Pricing = () => {
                     </div>
                 ))
             }
-            <div className="pricing-small-ring absolute -top-[8%] left-[20%]  "><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand circles" /></div>
+            <div className="pricing-small-ring absolute max-md:top-0 -top-[8%] left-[20%]  "><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand circles" /></div>
             <div className="pricing-big-ring absolute -bottom-[14%] right-[17%] "><Image src="/assets/big-ring.png" width={180} height={180} alt="Magichand circles" /></div>
         </div>
     </section>

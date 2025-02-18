@@ -11,13 +11,13 @@ import { useRouter } from "next/router";
 const ModalPopup = () => {
 
     const [result, setResult] = useState("Book an Appointment");
-    const [modalOpen, setModalOpen] = useState(true);
+    const [modalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
 
        setTimeout(() => {
         setModalOpen(true);
-       }, 5000);
+       }, 8000);
 
 
     }, [])
@@ -57,9 +57,9 @@ const ModalPopup = () => {
     
     <div className={`fixed z-[999] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
        <div className="bg-lighGreen relative p-6 lg:p-12 flex max-lg:flex-col gap-7 justify-center rounded-3xl">
-                        <div className="relative rounded-3xl overflow-hidden">
-                            <Image src="/assets/appointment/offer-bg.jpg" width={400} height={500} alt="Book Appointment Map" style={{width: "100%", height: "100%", objectFit: "cover"}} />
-                            <div className=" bg-blue/80 text-white font-lato inset-0 flex flex-col p-12 justify-between items-start absolute">
+                        <div className="relative rounded-3xl">
+                            <Image priority={true} src="/assets/appointment/offer-bg.jpg" width={400} height={500} alt="Book Appointment Map" style={{width: "100%", height: "100%", objectFit: "cover", borderRadius: "30px"}} />
+                            <div className=" bg-blue/80 text-white font-lato inset-0 flex flex-col rounded-3xl p-12 justify-between items-start absolute">
                               <div className="flex justify-start gap-5 items-center">
                                 <Image src="/assets/modal/modal-offer-icon.png" width={40} height={40} alt="Magichands offer icon" />
                                 <p className=" text-xl font-lato font-medium text-center">We care for you</p>
@@ -69,7 +69,7 @@ const ModalPopup = () => {
                               </div>
                             </div>
                         </div>
-                        <div className="bg-white rounded-3xl overflow-hidden p-6 lg:p-12">
+                        <div className="bg-white rounded-3xl p-6 lg:p-12">
                             <form onSubmit={onSubmit} action="" className="h-full flex flex-col">
                             <div className="flex max-md:flex-col justify-between gap-5 mt-2 md:mt-6">
                         <div className="flex-1">
