@@ -23,7 +23,7 @@ const Preloader = () => {
   return (
     <div className={`fixed inset-0 bg-blue z-[19999] flex justify-center items-center ${preloaderExit && 'hidden'} `}>
         <div className="flex gap-7">
-           <div class="pulsating-circle"></div>
+           <div className="pulsating-circle"></div>
             <p className="mt-12 text-4xl font-semibold text-white/80">We Care For You!</p>
  
         </div>
