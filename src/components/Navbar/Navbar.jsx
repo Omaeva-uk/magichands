@@ -31,7 +31,8 @@ const Navbar = () => {
     <div className="relative">
       <div className='flex justify-between items-center py-3 px-8 rounded-2xl shadow-[0px_5px_19px_-10px_rgba(0,_0,_0,_0.1)]'>
          <div className='text-2xl font-bold font-raleway'>
-          Magichands.
+          <Link href="/">Magichands.</Link>
+          
         </div>
       
         <div className=" max-md:hidden">

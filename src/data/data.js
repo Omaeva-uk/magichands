@@ -171,7 +171,7 @@ const pricingData = [
     },
     {
         id: 8,
-        img: "/assets/about/about-us-img-1.png",
+        img: "/assets/services-main-1.jpg",
     }
 ]
 

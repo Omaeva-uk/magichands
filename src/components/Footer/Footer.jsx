@@ -18,6 +18,10 @@ const Footer = () => {
             <PrimaryButton href="/#services" text="Our Services" />
             <Link href="/#appointment" className="flex items-center text-white gap-5">Book an Appointment <Image src="/assets/green-stroke-arrow.png" width={30} height={20} alt="Book an appointment icon" /></Link>
           </div>
+          <div className="text-black flex max-lg:flex-col justify-start items-start lg:items-center gap-5 mt-10">
+            <Image src="/assets/csp-logo.png" width={140} height={48} alt="CSP Logo" style={{width: "100%",  height: "100%", objectFit: "cover"}} />
+            <Image src="/assets/hcpc-logo.png" width={140} height={48} alt="CSP Logo" style={{width: "100%", height: "100%", objectFit: "cover"}} />
+          </div>
         </div>
         <div className="flex max-md:flex-col max-sm:items-end text-gray-400 gap-10">
           <div className="flex md:flex-col max-md:mt-7 gap-7">

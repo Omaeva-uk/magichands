@@ -21,7 +21,7 @@ const Testimonial = () => {
           }
         </div>
         <div className="flex-1 flex justify-end relative">
-          <Image src="/assets/testimonial/testimonial-main-img.png" width={400} height={400} alt="Testimonial section image" />
+          <Image src="/assets/testimonial/testimonial-main-img.jpg" width={400} height={400} alt="Testimonial section image" style={{width: "100%", height: "100%", objectFit: "cover", borderRadius: "30px"}} />
           <div className="testimonial-big-ring absolute -z-10 top-[0] lg:top-[25%] -left-[15%]  "><Image src="/assets/big-ring.png" width={180} height={180} alt="Magichand circles" /></div>
         </div>
        </div>

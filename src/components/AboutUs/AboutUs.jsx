@@ -38,8 +38,8 @@ const AboutUs = () => {
                         </div>
                         <div><Image src="/assets/about/about-us-img-2.png" width={300} height={250} alt="Magichands About Us"  /></div>
                     </div>
-                    <div  className="max-md:hidden">
-                        <Image src="/assets/about/about-us-img-1.png" width={320} height={600} alt="Magichands About us Image" />
+                    <div  className="max-md:hidden overflow-hidden rounded-3xl">
+                        <Image src="/assets/about/about-us-img-1.jpg" width={320} height={600} alt="Magichands About us Image" style={{width: "100%", height: "100%", objectFit: "cover"}} />
                     </div>
                 </div>
                 <div className="small-ring-animation absolute top-0 left-[40%] "><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand circles" /></div>

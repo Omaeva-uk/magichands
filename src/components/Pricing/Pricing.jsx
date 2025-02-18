@@ -12,7 +12,7 @@ const Pricing = () => {
                     <div data-aos="fade-up" key={item.id} className={` relative z-10 ${item.id === 8 ? "p-0" : 'p-12'} ${item.id === 1 ? 'bg-green' : item.id === 3 ? 'bg-green' : item.id === 6 ? "bg-green" : 'bg-lighGreen'} overflow-hidden rounded-3xl `}>
                         {
                             item?.img ? (
-                                <Image src={item.img} width={300} height={300} alt="Magic hands pricing image" style={{width: "100%", maxHeight: "250px", objectFit: "cover"}} />
+                                <Image src={item.img} width={400} height={300} alt="Magic hands pricing image" style={{width: "100%", height: "100%", objectFit: "cover"}} />
                             ) : (
                                 <div>
                                  <div><Image src="/assets/chakra-img.png" width={30} height={30} alt="Magichands pricing icon" /></div>

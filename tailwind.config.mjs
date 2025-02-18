@@ -25,6 +25,9 @@ export default {
       textColor: {
         green: "#A9D3A9"
       },
+      borderColor: {
+        green: "#A9D3A9"
+      }
     },
   },
   plugins: [],
