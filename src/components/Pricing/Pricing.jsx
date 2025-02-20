@@ -5,11 +5,11 @@ import "./pricing.css";
 const Pricing = () => {
   return (
     <section id="pricing" className="my-24">
-        <h2 data-aos="fade-up" className="font-raleway font-semibold max-w-lg text-3xl leading-snug md:text-4xl md:leading-snug">Discover our treatments with best pricing</h2>
+        <h2 data-aos="fade-up" className="font-raleway font-semibold max-w-lg text-3xl leading-snug md:text-4xl md:leading-snug"><span className="text-red">Discover</span> our treatments with best pricing</h2>
         <div className="grid relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 mt-24">
             {
                 pricingData.map(item => (
-                    <div data-aos="fade-up" key={item.id} className={` relative z-10 ${item.id === 8 ? "p-0" : 'p-12'} ${item.id === 1 ? 'bg-green' : item.id === 3 ? 'bg-green' : item.id === 6 ? "bg-green" : 'bg-lighGreen'} overflow-hidden rounded-3xl `}>
+                    <div data-aos="fade-up" key={item.id} className={` relative z-10 ${item.id === 8 ? "p-0" : 'p-12'} ${item.id === 1 ? 'bg-green' : item.id === 3 ? 'bg-green' : item.id === 6 ? "bg-green" : 'bg-lighGreen'} border-2 border-green overflow-hidden rounded-3xl `}>
                         {
                             item?.img ? (
                                 <Image src={item.img} width={400} height={300} alt="Magic hands pricing image" style={{width: "100%", height: "100%", objectFit: "cover"}} />

@@ -26,7 +26,7 @@ const page = () => {
           <div className="grid grid-cols-1 gap-7 [&>*:nth-child(even)]:bg-green">
               {
                 service3Data.subsection1.list.map(item => (
-                  <div key={item.id} className="bg-lighGreen p-12 rounded-xl ">
+                  <div key={item.id} className="bg-lighGreen border-2  border-green p-12 rounded-xl ">
                     <h3 className="text-2xl mb-3 font-semibold leading-snug">{item.heading3}</h3>
                     <p>{item.para}</p>
                   </div>
@@ -42,7 +42,7 @@ const page = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
               {
                 service3Data.subsection2.list.map((item, i) => (
-                  <div key={i} className={`p-12 font-semibold rounded-xl`}>
+                  <div key={i} className={`p-12 border-2  border-green font-semibold rounded-xl`}>
                     <p>{item}</p>
                   </div>
                 ))
@@ -58,7 +58,7 @@ const page = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 [&>*:nth-child(even)]:bg-green">
                   {
                     service3Data.subsection3.list.map(item => (
-                      <div key={item.id} className="bg-lighGreen p-12 rounded-xl ">
+                      <div key={item.id} className="bg-lighGreen border-2  border-green p-12 rounded-xl ">
                         <h3 className="text-2xl mb-3 font-semibold leading-snug">{item.heading3}</h3>
                         <p>{item.para}</p>
                       </div>
@@ -74,7 +74,7 @@ const page = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12 gap-7 [&>*:nth-child(even)]:bg-green">
               {
                 service3Data.subsection4.list.map(item => (
-                  <div key={item.id} className="bg-lighGreen p-12 rounded-xl ">
+                  <div key={item.id} className="bg-lighGreen p-12 border-2  border-green rounded-xl ">
                     <h3 className="text-2xl mb-3 font-semibold leading-snug">{item.heading3}</h3>
                     <p>{item.para}</p>
                   </div>

@@ -1,5 +1,5 @@
 .small-ring-animation{
-    transform: translate(-300px, -500px);
+    transform: translate(-300px, -900px);
     animation: small-ring-animate linear both;
     animation-timeline: scroll();
 }

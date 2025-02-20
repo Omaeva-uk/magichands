@@ -35,7 +35,7 @@ export default async function RootLayout({ children }) {
         </main>
         <Footer />
         <CookieConsentBanner />
-        <Preloader />
+        {/* <Preloader /> */}
       </body>
     </html>
   );

@@ -28,7 +28,7 @@ const page = () => {
           <div className="grid mt-12 grid-cols-2 lg:grid-cols-5 gap-7">
             {
               service1Data.conditions.map((item, i) => (
-                <div key={i} className="bg-lighGreen rounded-3xl p-6">
+                <div key={i} className="bg-lighGreen border-2  border-green rounded-3xl p-6">
                   <p>{item}</p>
                 </div>
               ))

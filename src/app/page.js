@@ -1,6 +1,7 @@
 import Image from "next/image";
-import {Hero, AboutUs, Services, Cta, Testimonial, BookAppointment, ModalPopup, Pricing } from "@/components";
+import {Hero, AboutUs, Services, Cta, Testimonial, BookAppointment, ModalPopup, Pricing, Providers, Preloader } from "@/components";
 import { resolve } from "styled-jsx/css";
+
 
 export default async function Home() {
   
@@ -8,13 +9,16 @@ export default async function Home() {
   return (
     <div className="font-lato">
       <Hero />
+      <Providers />
       <AboutUs />
       <Services />
       <Cta />
       <Pricing />
       <Testimonial />
       <BookAppointment />
+      <Preloader />
       <ModalPopup />
+      
     </div>
   );
 }

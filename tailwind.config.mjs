@@ -23,7 +23,8 @@ export default {
         lighGreen: "#f8faf7",
       },
       textColor: {
-        green: "#A9D3A9"
+        green: "#A9D3A9",
+        red: "#BE0409",
       },
       borderColor: {
         green: "#A9D3A9"

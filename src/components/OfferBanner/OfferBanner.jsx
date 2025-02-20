@@ -19,4 +19,4 @@ const OfferBanner = () => {
   )
 }
 
-export default OfferBanner
+export default OfferBanner;

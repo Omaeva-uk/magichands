@@ -59,14 +59,14 @@ const servicesData = {
         {
             id: 5,
             href: "/prolotherapy-musculoskeletal-treatment",
-            img: "/assets/services/service-card-img-4.png",
+            img: "/assets/services/service-card-img-5.png",
             title: "Prolotherapy & Musculoskeletal Treatment",
             para: "Prolotherapy (proliferative therapy) is a regenerative injection treatment used to stimulate healing",
         },
         {
             id: 6,
             href: "/arthrosamid",
-            img: "/assets/services/service-card-img-4.png",
+            img: "/assets/services/service-card-img-6.png",
             title: "Arthrosamid",
             para: "Arthrosamid ® is a novel treatment designed for managing knee osteoarthritis, providing an effective alternative to current therapies.",
         },
@@ -129,7 +129,7 @@ const footerData = {
     ],
     address: "Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX, England, United Kingdom",
     mail: "info@magichandphysiotherapylimited.co.uk",
-    contact: "+(378) 555-0108",
+    contact: "+44 7878158530",
 }
 
 const pricingData = [

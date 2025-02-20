@@ -9,7 +9,7 @@ const AboutUs = () => {
     <section id="about-us" className="">
         <div className="flex max-md:flex-col my-24 gap-7 items-center">
             <div className="flex-1">
-                <h2  className="font-raleway font-semibold text-3xl leading-snug md:text-4xl md:leading-snug">{aboutData.heading}</h2>
+                <h2  className="font-raleway font-semibold text-3xl leading-snug md:text-4xl md:leading-snug">Why Choose <span className="text-red">Magichands</span> Physiotherapy for Your Recovery Journey?</h2>
                 <p className="mt-7 max-w-lg text-gray-700">{aboutData.para}</p>
                 <div className="grid mt-14 grid-cols-2 gap-7">
                     {
@@ -39,7 +39,7 @@ const AboutUs = () => {
                         <div><Image src="/assets/about/about-us-img-2.png" width={300} height={250} alt="Magichands About Us"  /></div>
                     </div>
                     <div  className="max-md:hidden overflow-hidden rounded-3xl">
-                        <Image src="/assets/about/about-us-img-1.jpg" width={320} height={600} alt="Magichands About us Image" style={{width: "100%", height: "100%", objectFit: "cover"}} />
+                        <Image src="/assets/about/client-img.jpg" width={320} height={600} alt="Magichands About us Image" style={{width: "100%", height: "100%", objectFit: "cover"}} />
                     </div>
                 </div>
                 <div className="small-ring-animation absolute top-0 left-[40%] "><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand circles" /></div>

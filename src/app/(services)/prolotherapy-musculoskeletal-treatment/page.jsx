@@ -27,7 +27,7 @@ const page = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
                   {
                     service5Data.subsection1.list.map((item, i) => (
-                      <div key={i} className={`p-12 font-semibold  space-y-3 rounded-xl`}>
+                      <div key={i} className={`p-12 font-semibold border-2  border-green space-y-3 rounded-xl`}>
                         <p>{item}</p>
                       </div>
                     ))
@@ -37,7 +37,7 @@ const page = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
                   {
                     service5Data.subsection2.list.map((item, i) => (
-                      <div key={i} className={`p-12 font-semibold  space-y-3 rounded-xl`}>
+                      <div key={i} className={`p-12 font-semibold border-2  border-green space-y-3 rounded-xl`}>
                         <h3 className="text-xl font-semibold leading-snug">{item.heading3}</h3>
                         <p>{item.para}</p>
                       </div>
@@ -48,7 +48,7 @@ const page = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
                   {
                     service5Data.subsection3.list.map((item, i) => (
-                      <div key={i} className={`p-12 font-semibold  space-y-3 rounded-xl`}>
+                      <div key={i} className={`p-12 font-semibold border-2  border-green  space-y-3 rounded-xl`}>
                         <h3 className="text-xl underline font-semibold leading-snug">{item.heading3}</h3>
                         {
                           item.list1.map((item, i) => (
@@ -63,7 +63,7 @@ const page = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
                   {
                     service5Data.subsection4.list.map((item, i) => (
-                      <div key={i} className={`p-12 font-semibold  space-y-3 rounded-xl`}>
+                      <div key={i} className={`p-12 font-semibold border-2  border-green space-y-3 rounded-xl`}>
                         <p>{item}</p>
                       </div>
                     ))

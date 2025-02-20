@@ -9,7 +9,7 @@ const Services = () => {
     <section data-aos="fade-up" id="services" className="my-24">
         <div className="gap-7">
             <div className="flex-1 md:flex lg:block gap-7 relative">
-                <h2 className="font-raleway max-w-xl flex-1 font-semibold text-3xl mb-5 leading-snug md:text-4xl md:leading-snug">{servicesData.heading}</h2>
+                <h2 className="font-raleway max-w-xl flex-1 font-semibold text-3xl mb-5 leading-snug md:text-4xl md:leading-snug"><span className="text-red">Our Service</span> – Expert Care for Every Step of Your Recovery</h2>
                 {/* <div className="flex-1 rounded-3xl overflow-hidden"><Image src="/assets/services/services-main-1.png" style={{width: "100%" , maxHeight: "350px", objectFit: "cover"}} width={400} height={400} alt="Magichands Services Image" /></div> */}
                 <div className=" absolute -z-10 top-[50%] max-lg:left-0 lg:right-[15%] "><Image src="/assets/big-ring.png" width={180} height={180} alt="Magichand circles" /></div>
             </div>

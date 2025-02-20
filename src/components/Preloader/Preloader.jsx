@@ -2,11 +2,18 @@
 
 import "./preloader.css";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 
 const Preloader = () => {
 
     const [preloaderExit, setPreloaderExit] = useState(false);
+
+    const pathname = usePathname();
+    
+    if(pathname.includes("blog")){
+      return null;
+    }
 
     useEffect(() => {
       document.body.style.overflow = 'hidden';

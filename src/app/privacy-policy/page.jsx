@@ -22,7 +22,7 @@ const page = () => {
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold"> Queries</h2>
-                <p><Link href="" className=" underline" >saravanakumar.ps@Magichands Physiotherapy.in</Link></p>
+                <p><Link href="mailto:info@magichandphysiotherapylimited.co.uk" className=" underline" >info@magichandphysiotherapylimited.co.uk</Link></p>
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold">  What Personal Data We Collect</h2>
@@ -104,7 +104,7 @@ const page = () => {
                     <h4 className="text-md mt-3 font-bold text-gray-900">Withdraw Consent</h4>
                     <p>Withdraw consent where processing is based on consent.</p>
                 </div>
-                <p className="mt-1">To exercise these rights, contact us at <Link href="" className=" underline">saravanakumar.ps@Magichands Physiotherapy.in</Link>.</p>
+                <p className="mt-1">To exercise these rights, contact us at <Link href="mailto:info@magichandphysiotherapylimited.co.uk" className=" underline">info@magichandphysiotherapylimited.co.uk</Link>.</p>
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold">Cookie Policy</h2>
@@ -136,7 +136,7 @@ const page = () => {
                 <p className="mt-3">For questions, concerns, or requests related to this Privacy Policy, please reach out to:</p>
                 <div className="mt-3">
                     <h4 className="text-md mt-3 font-bold text-gray-900">Other Queries</h4>
-                    <Link href="" className=" underline">saravanakumar.ps@Magichands Physiotherapy.in</Link>
+                    <Link href="mailto:info@magichandphysiotherapylimited.co.uk" className=" underline">info@magichandphysiotherapylimited.co.uk</Link>
                 </div>
             </div>
             <div className="mt-6">

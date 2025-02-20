@@ -30,7 +30,7 @@ const page = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-7 gap-7 [&>*:nth-child(even)]:bg-green">
               {
                 service2Data.subsection1.list.map(item => (
-                  <div key={item.id} className="bg-lighGreen p-12 rounded-xl ">
+                  <div key={item.id} className="bg-lighGreen border-2  border-green p-12 rounded-xl ">
                     <h3 className="text-2xl mb-3 font-semibold leading-snug">{item.heading3}</h3>
                     <p>{item.para}</p>
                   </div>
@@ -43,7 +43,7 @@ const page = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                   {
                     service2Data.subsection2.list.map(item => (
-                      <div key={item.id} className={`${item.id === 2 ? "bg-green" : item.id === 4 ? "bg-green" : "bg-lighGreen"}  p-12 rounded-xl `}>
+                      <div key={item.id} className={`${item.id === 2 ? "bg-green" : item.id === 4 ? "bg-green" : "bg-lighGreen"} border-2  border-green  p-12 rounded-xl `}>
                         <h3 className="text-2xl mb-3 font-semibold leading-snug">{item.heading3}</h3>
                         <p>{item.para}</p>
                       </div>
@@ -61,7 +61,7 @@ const page = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 mt-7  [&>*:nth-child(even)]:bg-green  [&>*:nth-child(odd)]:bg-lighGreen gap-7">
               {
                 service2Data.subsection3.list.map((item, i) => (
-                  <div key={i} className={`p-12 font-semibold rounded-xl`}>
+                  <div key={i} className={`p-12 font-semibold rounded-xl border-2  border-green`}>
                     <p>{item}</p>
                   </div>
                 ))
