@@ -34,10 +34,6 @@ const Footer = () => {
             }
             
           </div>
-          <div className="text-black flex justify-start items-start lg:items-center gap-5 mt-10 max:mb-10">
-            <Image src="/assets/csp-logo.png" width={140} height={48} alt="CSP Logo"  />
-            <Image src="/assets/hcpc-logo.png" width={140} height={48} alt="CSP Logo"  />
-          </div>
         </div>
         
         
