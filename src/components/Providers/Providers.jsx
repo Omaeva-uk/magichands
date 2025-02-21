@@ -10,6 +10,7 @@ const Providers = () => {
             <Image src="/assets/providers/provider-3.png" width={120} height={100} alt="Accredited provider" />
             <Image src="/assets/providers/provider-4.png" width={120} height={100} alt="Accredited provider" className="lg:hidden" />
             <Image src="/assets/providers/provider-5.png" width={120} height={100} alt="Accredited provider" />
+          <Image src="/assets/providers/provider-6.png" width={120} height={100} alt="Accredited provider" />
         </div>
     </div>
   )
