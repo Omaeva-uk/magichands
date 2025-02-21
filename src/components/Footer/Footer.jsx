@@ -13,7 +13,7 @@ const Footer = () => {
           <div className='text-2xl mb-3 font-bold font-raleway'>
           <Link href="/"><Image src="/assets/footer-logo.png" width={350} height={60} alt="Magichands Logo" /></Link>
           </div>
-          <p className="text-gray-500">{footerData.para}</p>
+          <p className="text-white-500">{footerData.para}</p>
           <div className="text-black flex max-lg:flex-col justify-start items-start lg:items-center gap-5 mt-10">
             <PrimaryButton href="/#services" text="Our Services" />
             <Link href="/#appointment" className="flex items-center text-white gap-5">Book an Appointment <Image src="/assets/green-stroke-arrow.png" width={30} height={20} alt="Book an appointment icon" /></Link>
@@ -38,7 +38,7 @@ const Footer = () => {
         
         
           
-          <div className="max-w-xs xl:max-w-sm text-right text-gray-400 flex flex-col items-end gap-5">
+          <div className="max-w-xs xl:max-w-sm text-right text-white-400 flex flex-col items-end gap-5">
             <p>{footerData.address}</p>
             <Link href="mailto:info@magichandphysiotherapylimited.co.uk">{footerData.mail}</Link>
             <p>{footerData.contact}</p>
@@ -49,9 +49,9 @@ const Footer = () => {
       </div>
       <div className="h-[1px] my-7 bg-white/20 w-full "></div>
       <div className="flex justify-between items-center">
-        <p className="text-xs text-gray-600">{new Date().getFullYear()} Copyright. All rights reserved</p>
-        <p className="text-xs text-gray-600">Designed and developed by <Link href="https://www.omaeva.com" className=" underline">Omaeva Ltd UK</Link>.</p>
-        <Link href="/privacy-policy" className="text-xs text-gray-600">Privacy Policy</Link>
+        <p className="text-xs text-white-600">{new Date().getFullYear()} Copyright. All rights reserved</p>
+        <p className="text-xs text-white-600">Designed and developed by <Link href="https://www.omaeva.com" className=" underline">Omaeva Ltd UK</Link>.</p>
+        <Link href="/privacy-policy" className="text-xs text-white-600">Privacy Policy</Link>
       </div>
     </div>
   )
