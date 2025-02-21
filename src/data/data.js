@@ -86,11 +86,11 @@ const ctaData = {
 }
 
 const teamData = {
-    name: "Sundar Vaidhyanathaswamy",
+    name: "Dr.Sundar Vaidhyanathaswamy",
     graduations: "BPT, MCSP, Pg Dip MSK (NZ), MSc (UK), Pg SCP, (T&O)",
     profile: "Musculoskeletal physiotherapist with exceptionally good academic and clinical track record. passionate and highly effective team player, has special interest in spinal pain, foot and ankle, educated to M level, with over 24 years of clinical experience. Possess a sound clinical knowledge and skills in assessing and treating complex musculoskeletal conditions.",
     heading2: "Areas of Expertise",
-    expertise: ["Musculoskeletal physiotherapy and spinal manual therapy", "Sports injuries", "Injection therapy"],
+    expertise: ["Musculoskeletal Physiotherapy and Spinal manual therapy", "Sports injuries", "Injection therapy"],
 }
 
 const testimonialData = {
