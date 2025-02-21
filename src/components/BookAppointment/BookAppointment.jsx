@@ -4,6 +4,7 @@ import Image from "next/image";
 import "./appointment.css";
 import { PrimaryButton } from "..";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const BookAppointment = () => {
 
@@ -49,7 +50,7 @@ const BookAppointment = () => {
                 <video width={500} height={700} preload="metadata" className=" scale-[1.28]" autoPlay playsInline muted loop >
                     <source src="/assets/location-video.mp4" type="video/mp4" />
                 </video>
-                <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl">Room 5, Simply Gym Swindon West</div>
+                <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl"><Link href="https://maps.app.goo.gl/u7AGDc4RinaTUi537" target="_blank">📍 Room 5, Simply Gym Swindon West</Link></div>
             </div>
             <div className="bg-white rounded-3xl overflow-hidden p-6 lg:p-12">
                 <form action="" onSubmit={onSubmit} className="h-full flex flex-col">

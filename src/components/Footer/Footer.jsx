@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex max-md:flex-col justify-between bg-blue text-white">
         <div className=" sm:max-w-[18rem] lg:max-w-sm">
           <div className='text-2xl mb-3 font-bold font-raleway'>
-          <Link href="/"><Image src="/assets/footer-logo.png" width={240} height={60} alt="Magichands Logo" /></Link>
+          <Link href="/"><Image src="/assets/footer-logo.png" width={350} height={60} alt="Magichands Logo" /></Link>
           </div>
           <p className="text-gray-500">{footerData.para}</p>
           <div className="text-black flex max-lg:flex-col justify-start items-start lg:items-center gap-5 mt-10">

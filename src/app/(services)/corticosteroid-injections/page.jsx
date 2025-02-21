@@ -71,7 +71,7 @@ const page = () => {
             </div>
             <div>
               <h2 className="text-3xl font-medium mt-16 text-gray-900 leading-snug">{service3Data.subsection4.heading2}</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12 gap-7 [&>*:nth-child(even)]:bg-green">
+              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mt-12 gap-7 [&>*:nth-child(even)]:bg-green">
               {
                 service3Data.subsection4.list.map(item => (
                   <div key={item.id} className="bg-lighGreen p-12 border-2  border-green rounded-xl ">

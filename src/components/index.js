@@ -16,7 +16,8 @@ import Preloader from "./Preloader/Preloader";
 import FeaturedBlog from "./FeaturedBlog/FeaturedBlog";
 import LatestBlog from "./LatestBlog/LatestBlog";
 import Providers from "./Providers/Providers";
+import Team from "./Team/Team";
 
 export {OfferBanner, Navbar, Hero, PrimaryButton, AboutUs, Services, 
     Cta, Testimonial, BookAppointment, Footer, ModalPopup,
-     CookieConsentBanner, AosAnimation, Pricing, Preloader, FeaturedBlog, LatestBlog, Providers};
+     CookieConsentBanner, AosAnimation, Pricing, Preloader, FeaturedBlog, LatestBlog, Providers, Team};

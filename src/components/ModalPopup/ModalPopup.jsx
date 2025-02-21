@@ -55,7 +55,7 @@ const ModalPopup = () => {
 
   return (
     
-    <div className={`absolute lg:fixed z-[999] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
+    <div className={`absolute lg:fixed z-[1001] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
        <div className="bg-lighGreen relative p-6 lg:p-12 flex max-lg:flex-col gap-7 justify-center rounded-3xl">
                         <div className="relative rounded-3xl">
                             <Image priority={true} src="/assets/modal/offer-main-img.jpg" width={400} height={500} alt="Book Appointment Map" style={{width: "100%", height: "100%", objectFit: "cover", borderRadius: "30px"}} />

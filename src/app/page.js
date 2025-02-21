@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Hero, AboutUs, Services, Cta, Testimonial, BookAppointment, ModalPopup, Pricing, Providers, Preloader } from "@/components";
+import {Hero, AboutUs, Services, Cta, Testimonial, BookAppointment, ModalPopup, Pricing, Providers, Preloader, Team } from "@/components";
 import { resolve } from "styled-jsx/css";
 
 
@@ -14,6 +14,7 @@ export default async function Home() {
       <Services />
       <Cta />
       <Pricing />
+      <Team />
       <Testimonial />
       <BookAppointment />
       <Preloader />

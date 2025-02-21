@@ -28,11 +28,11 @@ const AboutUs = () => {
                     <div className="flex flex-col pt-11 items-center">
                         <div className="flex mb-7 gap-5 rounded-3xl bg-green p-12">
                             <div className="flex-1  max-w-[100px]">
-                                <span className="text-2xl text-white font-bold">150+</span>
+                                <span className="text-2xl text-blue font-bold">150+</span>
                                 <p className="text-gray-800">Happy Customers</p>
                             </div>
                             <div className=" max-w-[60px]">
-                                <span className="text-2xl text-white block font-bold">49+</span>
+                                <span className="text-2xl text-blue block font-bold">49+</span>
                                 <p className="text-gray-800">Expert Teams</p>
                             </div>
                         </div>

@@ -16,12 +16,12 @@ const Services = () => {
             <div className="grid gap-7 grid-cols-3 max-md:grid-cols-1 mt-24 max-lg:mt-5">
                 {
                     servicesData.serviceCards.map(item => (
-                        <Link href={item.href} data-aos="fade-in" key={item.id} className={` ${item.id === 1 ? 'bg-green' : 'bg-lighGreen'} hover:border-green hover:border-2 transition-all p-6 rounded-3xl `}>
-                            <div className="items-start flex gap-3 justify-between">
+                        <Link href={item.href} data-aos="fade-in" key={item.id} className={` ${item.id === 1 ? 'bg-green' : 'bg-lighGreen'} hover:border-green flex flex-col hover:border-2 transition-all p-6 rounded-3xl `}>
+                            <div className="items-start flex max-xl:flex-col gap-3 justify-between">
                                 <Image src={item.img} width={70} height={70} alt="Magichands Services Image" />
-                                <h3 className="font-raleway text-right text-gray-800 font-medium max-w-[300px] mt-5 mb-3 text-xl">{item.title}</h3>
+                                <h3 className="font-raleway self-end text-right text-gray-800 font-medium max-w-[300px] mt-5 mb-3 text-xl">{item.title}</h3>
                             </div>
-                            <div>
+                            <div className="mt-auto">
                                 <p className="text-gray-700 text-right ml-auto max-w-[300px]">{item.para}</p>
                                 <button className={` ${item.id === 1 ? 'bg-blue text-white' : 'bg-green'} hover:bg-blue ml-auto mt-5 hover:text-white transition-all flex justify-center items-center gap-2 px-5 py-3 font-semibold rounded-xl`}>
                                     View More

@@ -322,6 +322,118 @@ const service6Data = {
     },
 }
 
+const service7Data = {
+    name: "Ultrasound-Guided Injections for Joints and Soft Tissues",
+    para1: "Ultrasound-guided injections are a minimally invasive procedure used to deliver medication (such as corticosteroids, hyaluronic acid, platelet-rich plasma, or anesthetics) directly into joints or soft tissues with high precision. The use of real-time ultrasound imaging improves accuracy, effectiveness, and safety compared to traditional landmark-based techniques.",
+    subsection1: {
+        heading2: "Benefits of Ultrasound Guidance",
+        list: [
+            {
+                id: 1,
+                heading3: "Increased Accuracy",
+                para: "Ensures precise needle placement into the targeted area.",
+            },
+            {
+                id: 2,
+                heading3: "Improved Safety",
+                para: "Reduces the risk of injury to surrounding structures like nerves or blood vessels.",
+            },
+            {
+                id: 3,
+                heading3: "Enhanced Efficacy",
+                para: "Optimizes medication delivery to the affected tissue for better pain relief.",
+            },
+            {
+                id: 4,
+                heading3: "Real-Time Visualization",
+                para: "Allows dynamic assessment of the targeted area before and during injection.",
+            },
+        ]
+    },
+    heading2: "Common Indications for Ultrasound-Guided Injections",
+    subsection2: {
+        heading2: "Joint Injections",
+        list: [
+            {
+                id: 1,
+                heading3: "Knee Joint",
+                para: "Osteoarthritis, synovitis, meniscal injuries",
+            },
+            {
+                id: 2,
+                heading3: "Shoulder Joint",
+                para: "Rotator cuff pathology, bursitis, adhesive capsulitis/frozen shoulder",
+            },
+            {
+                id: 3,
+                heading3: "Hip Joint",
+                para: "Osteoarthritis, labral tears, trochanteric bursitis",
+            },
+            {
+                id: 4,
+                heading3: "Ankle & Foot Joints",
+                para: "Arthritis, ligament injuries, plantar fasciitis",
+            },
+            {
+                id: 5,
+                heading3: "Elbow Joint",
+                para: "Tennis elbow, golfer’s elbow, arthritis",
+            },
+            {
+                id: 6,
+                heading3: "Wrist & Hand Joints",
+                para: "Carpal tunnel syndrome, tendonitis, arthritis",
+            },
+        ]
+    },
+    subsection3: {
+        heading2: "Soft Tissue Injections",
+        list: [
+            {
+                id: 1,
+                heading3: "Bursa related pain",
+                para: "Trochanteric, subacromial, olecranon bursitis",
+            },
+            {
+                id: 2,
+                heading3: "Nerve related pain",
+                para: "Carpal tunnel syndrome, Morton’s neuroma",
+            },
+        ]
+    },
+    heading3: "Procedure Overview ",
+    subsection4: [
+        {
+            id: 1,
+            heading3: "Preparation",
+            list: ["The skin is cleaned, and a sterile ultrasound probe cover is used.", "A local aesthetic may be applied to minimize discomfort.",],
+        },
+        {
+            id: 2,
+            heading3: "Ultrasound Guidance",
+            list: ["The clinician uses ultrasound imaging to locate the affected area.", "A fine needle is inserted while continuously visualising its path."],
+        },
+        {
+            id: 3,
+            heading3: "Injection",
+            list: ["The medication is delivered precisely into the targeted tissue.", "The clinician may confirm distribution via ultrasound."],
+        },
+        {
+            id: 4,
+            heading3: "Post-Procedure Care",
+            list: ["Patients are advised to rest the area and follow rehabilitation instructions.", "Pain relief can take a few hours to days, depending on the medication used.",],
+        },
+    ],
+    subsection5: {
+        heading2: "Risks & Considerations",
+        list: ["Mild discomfort or soreness at the injection site", "Rare risk of infection or bleeding", "Temporary flare-up of pain after corticosteroid injections", "Potential allergic reaction to the medication"],
+    },
+    subsection6: {
+        heading2: "Who Performs These Injections in our clinic",
+        para: "Highly trained physiotherapists with few years of hands-on experience.",
+    },
+}
 
 
-export {service1Data, service2Data, service3Data, service4Data, service5Data, service6Data};
+
+export {service1Data, service2Data, service3Data, service4Data, service5Data, service6Data, service7Data};

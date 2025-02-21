@@ -1,6 +1,6 @@
 const aboutData = {
     heading: "Why Choose Magichands Physiotherapy for Your Recovery Journey?",
-    para: "At Magichands Physiotherapist, we empower people to reach their full potential through expert physiotherapy.",
+    para: "At Magichands Physiotherapy, we empower people to reach their full potential through expert physiotherapy.",
     whyUs: [
         {
             id: 1,
@@ -56,19 +56,26 @@ const servicesData = {
             title: "Hyaluronic Acid Injections for Joints & Soft Tissues",
             para: "Hyaluronic acid (HA) injections are commonly used to relieve joint pain and improve soft tissue",
         },
+        // {
+        //     id: 5,
+        //     href: "/prolotherapy-musculoskeletal-treatment",
+        //     img: "/assets/services/service-card-img-5.png",
+        //     title: "Prolotherapy & Musculoskeletal Treatment",
+        //     para: "Prolotherapy (proliferative therapy) is a regenerative injection treatment used to stimulate healing",
+        // },
+        // {
+        //     id: 6,
+        //     href: "/arthrosamid",
+        //     img: "/assets/services/service-card-img-6.png",
+        //     title: "Arthrosamid",
+        //     para: "Arthrosamid ® is a novel treatment designed for managing knee osteoarthritis, providing an effective alternative to current therapies.",
+        // },
         {
-            id: 5,
-            href: "/prolotherapy-musculoskeletal-treatment",
-            img: "/assets/services/service-card-img-5.png",
-            title: "Prolotherapy & Musculoskeletal Treatment",
-            para: "Prolotherapy (proliferative therapy) is a regenerative injection treatment used to stimulate healing",
-        },
-        {
-            id: 6,
-            href: "/arthrosamid",
-            img: "/assets/services/service-card-img-6.png",
-            title: "Arthrosamid",
-            para: "Arthrosamid ® is a novel treatment designed for managing knee osteoarthritis, providing an effective alternative to current therapies.",
+            id: 7,
+            href: "/ultrasound-guided-injections",
+            img: "/assets/services/service-card-img-7.png",
+            title: "Ultrasound-Guided Injections for Joints and Soft Tissues",
+            para: "Ultrasound-guided injections are a minimally invasive procedure used to deliver medication.",
         },
     ]
 }
@@ -78,6 +85,14 @@ const ctaData = {
     para: "Don’t let pain hold you back. Book your session today and experience the difference expert physiotherapy care can make.",
 }
 
+const teamData = {
+    name: "Sundar Vaidhyanathaswamy",
+    graduations: "BPT, MCSP, Pg Dip MSK (NZ), MSc (UK), Pg SCP, (T&O)",
+    profile: "Musculoskeletal physiotherapist with exceptionally good academic and clinical track record. passionate and highly effective team player, has special interest in spinal pain, foot and ankle, educated to M level, with over 24 years of clinical experience. Possess a sound clinical knowledge and skills in assessing and treating complex musculoskeletal conditions.",
+    heading2: "Areas of Expertise",
+    expertise: ["Musculoskeletal physiotherapy and spinal manual therapy", "Sports injuries", "Injection therapy"],
+}
+
 const testimonialData = {
     heading: "What Our Clients Say – Real Stories, Real Results",
     testimonialCards: [
@@ -85,7 +100,7 @@ const testimonialData = {
             id: 1,
             avatar: "/assets/testimonial/avatar-img-1.png",
             name: "Sarah K",
-            comment: "After a back injury, I struggled with daily tasks. Physio Clinic UK brought me back to normal!",
+            comment: "After a back injury, I struggled with daily tasks. Magichands Physiotherapists brought me back to normal!",
         },
         {
             id: 2,
@@ -103,13 +118,13 @@ const testimonialData = {
             id: 4,
             avatar: "/assets/testimonial/avatar-img-4.png",
             name: "Emily",
-            comment: "I couldn’t walk properly after my accident. Physio Clinic UK helped me regain my confidence!",
+            comment: "Years of chronic pain are gone. I’m finally living pain-free, thanks to their expert team!",
         },
     ]
 }
 
 const footerData = {
-    para: "At Magichands Physiotherapist, we believe that understanding your body is the first step toward recovery.",
+    para: "At Magichands Physiotherapy, we care for you by combining knowledge and compassion for your recovery.",
     link:[
         {
             id: 1,
@@ -151,13 +166,13 @@ const pricingData = [
     },
     {
         id: 4,
-        treatment: "Cortisone Injection",
-        price: "£150.00",
+        treatment: "corticosteroids injection",
+        price: "£100.00",
     },
     {
         id: 5,
-        treatment: "Ultrasound guided corticosteroid injection",
-        price: "£200.00",
+        treatment: "Ultrasound guided injection",
+        price: "£250.00",
     },
     {
         id: 6,
@@ -175,4 +190,4 @@ const pricingData = [
     }
 ]
 
-export {aboutData, servicesData, ctaData, testimonialData, footerData, pricingData}
+export {aboutData, servicesData, ctaData, testimonialData, footerData, pricingData, teamData}

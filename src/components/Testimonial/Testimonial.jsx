@@ -15,7 +15,7 @@ const Testimonial = () => {
                   <Image src={item.avatar} width={40} height={40} alt={`Testimonial by ${item.name}`} />
                   <h3>{item.name}</h3>
                 </div>
-                <p className="mt-5 max-lg:text-sm max-w-xs ">{item.comment}</p>
+                <p className="mt-5 max-lg:text-sm max-w-[300px] ">{item.comment}</p>
               </div>
             ))
           }

@@ -34,10 +34,16 @@ const page = () => {
               ))
             }
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-24">
+          <div className="grid mt-24 grid-cols-1 lg:grid-cols-2 gap-7">
+            <div className="grid grid-cols-1 max-lg:gap-7 place-items-center">
             <p className="text-xl max-w-3xl leading-normal">{service1Data.para2}</p>
             <p className="text-xl max-w-3xl leading-normal">{service1Data.para3}</p>
           </div>
+          <div>
+            <Image src="/assets/service1/main-img-2.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", height: "auto", objectFit: "cover",  borderRadius: "30px"}} />
+          </div>
+          </div>
+          
         </div>
         
       </div>
