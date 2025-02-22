@@ -4,12 +4,13 @@ const Providers = () => {
   return (
     <div className="my-12  xl:my-24">
         <h2 className="font-raleway max-w-2xl flex-1 font-semibold text-3xl my-24 leading-snug md:text-4xl md:leading-snug"><span className="text-red">Accredited</span> – Service Providers For</h2>
-        <div className="grid grid-cols-3 max-w-3xl justify-items-center mx-auto gap-7">
-            <Image src="/assets/providers/provider-1.png" width={120} height={100} alt="Accredited provider" className="lg:hidden" />
+        <div className="grid grid-cols-4 max-w-3xl justify-items-center mx-auto gap-9">
+            {/* <Image src="/assets/providers/provider-1.png" width={120} height={100} alt="Accredited provider" className="lg:hidden" /> */}
             <Image src="/assets/providers/provider-2.png" width={120} height={100} alt="Accredited provider" />
             <Image src="/assets/providers/provider-3.png" width={120} height={100} alt="Accredited provider" />
-            <Image src="/assets/providers/provider-4.png" width={120} height={100} alt="Accredited provider" className="lg:hidden" />
+            {/* <Image src="/assets/providers/provider-4.png" width={120} height={100} alt="Accredited provider" className="lg:hidden" /> */}
             <Image src="/assets/providers/provider-5.png" width={120} height={100} alt="Accredited provider" />
+            <Image src="/assets/providers/provider-6.png" width={150} height={100} alt="Accredited provider" />
         </div>
     </div>
   )

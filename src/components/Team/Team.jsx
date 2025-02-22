@@ -19,7 +19,7 @@ const Team = () => {
               <h4 className="font-semibold text-xl mb-5">{teamData.heading2}</h4>
               {
                 teamData.expertise.map((item, i) => (
-                  <div className="flex gap-3 items-center">
+                  <div key={i} className="flex gap-3 items-center">
                     <div className="w-[4px] h-[4px] bg-blue rounded-full"></div>
                     <p key={i}>{item}</p>
                   </div>
