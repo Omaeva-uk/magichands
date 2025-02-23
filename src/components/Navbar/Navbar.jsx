@@ -53,7 +53,7 @@ const Navbar = () => {
                   <Link href="/ultrasound-guided-injections">Ultrasound-Guided Injections for Joints and Soft Tissues</Link>
                 </div>
             </li>
-            <li className="p-3"><Link href="/blog">Blog</Link></li>
+            <li className="p-3"><Link href="/blog">Blogs</Link></li>
             <li className="p-3"><Link href="/#pricing">Pricing</Link></li>
             <li className="p-3"><Link href="/#team">Team</Link></li>
           </ul>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <li className="nav"><Link href="/">Home</Link></li>
               <li className="nav"><Link href="/#about-us">About</Link></li>
               <li className="nav"><Link href="/#services">Services</Link></li>
-              <li className="nav"><Link href="/blog">Blog</Link></li>
+              <li className="nav"><Link href="/blog">Blogs</Link></li>
               <li className="nav"><Link href="/#pricing">Pricing</Link></li>
               <li className="nav"><Link href="/blog">Team</Link></li>
             </ul>
