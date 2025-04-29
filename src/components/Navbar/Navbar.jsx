@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className="relative">
       <div className='flex justify-between items-center py-3 px-8 rounded-2xl shadow-[0px_5px_19px_-10px_rgba(0,_0,_0,_0.1)]'>
          <div className='text-2xl font-bold font-raleway'>
-          <Link href="/" className="max-sm:max-w-[50%]"><Image src="/assets/magichands-logo.jpg" width={400} height={60} alt="Magichands Logo" className="max-sm:max-w-[78%]" /></Link>
+          <Link href="/" className="max-sm:max-w-[50%]"><Image src="/assets/magichands-logo2.png" width={400} height={60} alt="Magichands Logo" className="max-sm:max-w-[78%]" /></Link>
           
         </div>
       
@@ -48,9 +48,11 @@ const Navbar = () => {
                   <Link href="/extracorporeal-shockwave-therapy">Extracorporeal Shockwave Therapy (ESWT)</Link>
                   <Link href="/corticosteroid-injections">Corticosteroid injections</Link>
                   <Link href="/hyaluronic-acid-injections-for-joints-soft-tissues">Hyaluronic Acid Injections for Joints & Soft Tissues</Link>
+            
                   {/* <Link href="/prolotherapy-musculoskeletal-treatment">Prolotherapy & Musculoskeletal Treatment</Link> */}
                   {/* <Link href="/arthrosamid">Arthrosamid</Link> */}
                   <Link href="/ultrasound-guided-injections">Ultrasound-Guided Injections for Joints and Soft Tissues</Link>
+                  <Link href="/primary-care-fcp">Primary Care FCP Services</Link>
                 </div>
             </li>
             <li className="p-3"><Link href="/blog">Blogs</Link></li>
@@ -77,7 +79,7 @@ const Navbar = () => {
               <li className="nav"><Link href="/#services">Services</Link></li>
               <li className="nav"><Link href="/blog">Blogs</Link></li>
               <li className="nav"><Link href="/#pricing">Pricing</Link></li>
-              <li className="nav"><Link href="/blog">Team</Link></li>
+              <li className="nav"><Link href="/#team">Team</Link></li>
             </ul>
           </div>
         </div>

@@ -19,9 +19,9 @@ const Footer = () => {
             <Link href="/#appointment" className="flex items-center text-white gap-5">Book an Appointment <Image src="/assets/green-stroke-arrow.png" width={30} height={20} alt="Book an appointment icon" /></Link>
           </div>
           <div className="flex gap-3 mt-5">
-            <Link href=""><Image src="/assets/social/facebook.png" width={30} height={30} alt="Magichands facebook" /></Link>
+            <Link href="https://www.facebook.com/profile.php?id=61573625049192&sk=about"><Image src="/assets/social/facebook.png" width={30} height={30} alt="Magichands facebook" /></Link>
             <Link href=""><Image src="/assets/social/linkedin.png" width={30} height={30} alt="Magichands facebook" /></Link>
-            <Link href=""><Image src="/assets/social/instagram.png" width={30} height={30} alt="Magichands facebook" /></Link>
+            <Link href="https://www.instagram.com/magichands_physiotherapy_ltd?utm_source=qr&igsh=MW5vdG0wcGl6aXgxbg=="><Image src="/assets/social/instagram.png" width={30} height={30} alt="Magichands facebook" /></Link>
           </div>
           
         </div>
@@ -38,10 +38,12 @@ const Footer = () => {
         
         
           
-          <div className="max-w-xs xl:max-w-sm text-right text-white-400 flex flex-col items-end gap-5">
-            <p>{footerData.address}</p>
-            <Link href="mailto:info@magichandphysiotherapylimited.co.uk">{footerData.mail}</Link>
-            <p>{footerData.contact}</p>
+          <div className="max-w-xs xl:max-w-sm text-right text-white-400 max-md:mt-5 flex flex-col max-lg:items-start items-end gap-5">
+            <p className="text-left">{footerData.address}</p>
+            <div className="max-sm:flex max-sm:gap-5 sm:space-y-5 items-center w-full">
+              <Link href="mailto:info@magichandphysiotherapylimited.co.uk" className="flex items-center gap-3"><Image src="/assets/footer-mail.png" width={30} height={30} alt="Mail us" /><p className="max-sm:hidden">{footerData.mail}</p></Link>
+              <Link href="tel:+497878158530" className="flex items-center gap-3"><Image src="/assets/footer-call.png" width={30} height={30} alt="Call us"/><p className="max-sm:hidden">{footerData.contact}</p></Link>
+            </div>
             <Link href="/#appointment" className="flex items-center justify-end text-white gap-5">Contact Us <Image src="/assets/green-filled-arrow.png" width={30} height={20} alt="Book an appointment icon" /></Link>
           </div>
         

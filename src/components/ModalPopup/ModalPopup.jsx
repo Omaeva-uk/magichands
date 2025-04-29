@@ -30,7 +30,7 @@ const ModalPopup = () => {
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "238a5ab6-c7a5-47ca-8ce2-1641f6ddfe2b");
+      formData.append("access_key", "09a8a79a-0a9e-42ed-be8f-66b209aea488");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -40,7 +40,8 @@ const ModalPopup = () => {
       const data = await response.json();
   
       if (data.success) {
-        setResult("Booking Successfull!");
+        setResult("Sent Successfully!");
+        alert("You will be contacted back to arrange an appointment within 24 hours!");
         event.target.reset();
         
       } else {
@@ -55,21 +56,31 @@ const ModalPopup = () => {
 
   return (
     
-    <div className={`absolute lg:fixed z-[1001] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
+    <div className={`absolute lg:fixed z-[1001]  lg:p-[80px] xl:p-[100px] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
        <div className="bg-lighGreen relative p-6 lg:p-12 flex max-lg:flex-col gap-7 justify-center rounded-3xl">
-                        <div className="relative rounded-3xl">
-                            <Image priority={true} src="/assets/modal/offer-main-img.jpg" width={400} height={500} alt="Book Appointment Map" style={{width: "100%", height: "100%", objectFit: "cover", borderRadius: "30px"}} />
+                        <div className=" md:flex-1 max-sm:h-[500px] rounded-3xl">
+                          <div className=" relative h-[100%]">
+                          <Image priority={true} src="/assets/modal/offer-main-img.jpg" width={400} height={500} alt="Book Appointment Map" style={{width: "100%", height: "100%", objectFit: "cover", borderRadius: "30px"}} />
                             <div className=" bg-blue/80 text-white font-lato inset-0 flex flex-col rounded-3xl p-12 justify-between items-start absolute">
-                              <div className="flex justify-start gap-5 items-center">
-                                <Image src="/assets/modal/modal-offer-icon.png" width={40} height={40} alt="Magichands offer icon" />
-                                <p className=" text-xl font-lato font-medium text-center">We care for you</p>
-                              </div>
                               <div>
-                                <h1 className=" text-2xl max-w-[200px] uppercase text-left font-black">3 Sessions for £130 - Limited Time Offer!</h1>
+                              <div className="flex gap-3 mb-3 items-center">
+                                  <Image src="/assets/modal/modal-offer-icon1.png" width={40} height={40} alt="Magichands offer icon" />
+                                  <p className="">Limited time offer</p>
+                                </div>
+                                <div className=" w-full justify-between gap-5 items-center">
+                                  <p className=" self-start max-w-[300px] text-2xl font-lato font-semibold">Experience the Power of Ultrasound-Guided Injections!</p>
+                                  <p className="mt-3 text-gray-200 max-w-xs">Looking for effective pain relief? Try our Ultrasound-Guided Injections today!</p>
+                              </div>
+                              </div>
+                              
+                              <div>
+                                <h1 className=" text-3xl lg:text-5xl lg:leading-tight max-w-[300px] uppercase leading-tight text-left font-black">3 Sessions for £130</h1>
                               </div>
                             </div>
+                          </div>
+                            
                         </div>
-                        <div className="bg-white rounded-3xl p-6 lg:p-12">
+                        <div className="bg-white rounded-3xl md:flex-1 p-6 lg:p-12">
                             <form onSubmit={onSubmit} action="" className="h-full flex flex-col">
                             <div className="flex max-md:flex-col justify-between gap-5 mt-2 md:mt-6">
                         <div className="flex-1">

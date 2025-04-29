@@ -2,6 +2,23 @@ import { Cta } from "@/components";
 import { latestBlog, featuredBlog } from "../data";
 import Image from "next/image";
 
+export async function generateStaticParams() {
+    
+    const blogPosts = [
+      { id: "diagnostic-ultrasound" },
+      { id: "shockwave-therapy" },
+      { id: "corticosteroid-relief" },
+      { id: "hyaluronic-joints" },
+      { id: "prolotherapy-2025" },
+      { id: "arthrosamid-treatment" },
+      { id: "prp-therapy-2025" },
+    ];
+  
+    return blogPosts.map((post) => ({
+      id: post.id, // Matches the [id] segment
+    }));
+  }
+
 export const generateMetadata = async({params}) => {
 
 

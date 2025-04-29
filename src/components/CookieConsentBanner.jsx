@@ -16,6 +16,25 @@ const CookieConsentBanner = () => {
 
   const handleAccept = () => {
     setShowBanner(false);
+    var script = document.createElement("script");
+
+    
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-CTMD5V4VBY";
+    script.async = true;
+
+    
+    document.body.appendChild(script);
+
+    
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CTMD5V4VBY');
+
+      console.log('Google Analytics script loaded and initialized');
+    };
+  
     cookie.set("cookieConsent", "accepted", { expires: 365 });
   };
 

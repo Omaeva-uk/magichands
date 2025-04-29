@@ -40,7 +40,7 @@ const page = () => {
             <p className="text-xl max-w-3xl leading-normal">{service1Data.para3}</p>
           </div>
           <div>
-            <Image src="/assets/service1/main-img-2.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", height: "auto", objectFit: "cover",  borderRadius: "30px"}} />
+            <Image src="/assets/service1/main-img-3.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", height: "auto", objectFit: "cover",  borderRadius: "30px"}} />
           </div>
           </div>
           

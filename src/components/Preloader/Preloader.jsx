@@ -3,6 +3,7 @@
 import "./preloader.css";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 
 const Preloader = () => {
@@ -22,7 +23,7 @@ const Preloader = () => {
             document.body.style.overflow = 'visible';
         }, 3000);
 
-    }, [])
+    }, []);
     
 
 
@@ -30,7 +31,9 @@ const Preloader = () => {
   return (
     <div className={`fixed inset-0 bg-blue z-[19999] flex justify-center items-center ${preloaderExit && 'hidden'} `}>
         <div className="flex gap-7">
-           <div className="pulsating-circle"></div>
+           <div className="pulsating-circle">
+            <Image src="/assets/preloader-logo1.png" width={120} height={120} className="pulsating-circle"/>
+           </div>
             <p className="mt-12 text-4xl font-semibold text-white/80">We Care For You!</p>
  
         </div>

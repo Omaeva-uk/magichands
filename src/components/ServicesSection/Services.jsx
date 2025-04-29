@@ -5,6 +5,7 @@ import { PrimaryButton } from "..";
 
 
 const Services = () => {
+
   return (
     <section data-aos="fade-up" id="services" className="my-24">
         <div className="gap-7">
@@ -26,11 +27,7 @@ const Services = () => {
                                 <button className={` ${item.id === 1 ? 'bg-blue text-white' : 'bg-green'} hover:bg-blue ml-auto mt-5 hover:text-white transition-all flex justify-center items-center gap-2 px-5 py-3 font-semibold rounded-xl`}>
                                     View More
                                 </button>
-
-                                
-                                
                             </div>
-                            
                         </Link>
                     ))
                 }

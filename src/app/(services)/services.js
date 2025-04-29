@@ -430,10 +430,65 @@ const service7Data = {
     },
     subsection6: {
         heading2: "Who Performs These Injections in our clinic",
-        para: "Highly trained physiotherapists with few years of hands-on experience.",
+        para: "Highly trained physiotherapists with several years of hands-on experience.",
     },
 }
 
 
+const service8Data = {
+    name: "Primary Care FCP Services – Efficient Solutions for MSK Patient Management",
+    para1: "We have been providing Primary Care FCP services for the past few years, offering fully managed musculoskeletal (MSK) first contact practitioners to enhance your patient care experience.",
+    subsection1: {
+        heading2: "Why Choose Our FCP Services?",
+        list: [
+            {
+                id: 1,
+                heading3: "Cost-Effective Appontments",
+                para: "Each MSK-related appointment costs only £30, compared to nearly £100 for a GP appointment.",
+            },
+            {
+                id: 2,
+                heading3: "Efficient Workload Management",
+                para: "Free up valuable GP, ANP, and pharmacist time by directly booking MSK patients with FCPs.",
+            },
+            {
+                id: 3,
+                heading3: "Improved Patient Care",
+                para: "Streamline your service delivery and focus on relevant medical conditions seeking same-day appointments.",
+            },
+        ]
+    },
+    subsection2: {
+        heading2: "How It Works",
+        list: [
+            {
+                id: 1,
+                heading3: "Initial Meeting",
+                para: "Meet with the practice management team to understand service demands.",
+            },
+            {
+                id: 2,
+                heading3: "Service Agreement",
+                para: "Sign a service level agreement for a minimum of two years.",
+            },
+            {
+                id: 3,
+                heading3: "Quick Implementation",
+                para: "Launch the service within a month.",
+            },
+        ]
+    },
+    subsection3: {
+        heading2: "Advantages of Our Service",
+        list: ["Reduce GP workload.", "Save costs on appointments.", "Provide better and faster care for patients."],
+    },
+    subsection4: {
+        heading2: "Get in Touch Today!",
+        para: "Transform your practice with our Primary Care FCP services.",
+        para1: "📞 Call us at 07878158530 to learn more and schedule a consultation.",
+    },
+};
 
-export {service1Data, service2Data, service3Data, service4Data, service5Data, service6Data, service7Data};
+
+
+export {service1Data, service2Data, service3Data, service4Data, service5Data, service6Data, service7Data, service8Data};

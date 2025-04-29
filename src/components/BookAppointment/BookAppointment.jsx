@@ -20,7 +20,7 @@ const BookAppointment = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "238a5ab6-c7a5-47ca-8ce2-1641f6ddfe2b");
+    formData.append("access_key", "09a8a79a-0a9e-42ed-be8f-66b209aea488");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -30,7 +30,8 @@ const BookAppointment = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Booking Successfull!");
+      setResult("Sent Successfully!");
+      alert("You will be contacted back to arrange an appointment within 24 hours!");
       event.target.reset();
 
     } else {

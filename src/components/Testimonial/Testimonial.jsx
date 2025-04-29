@@ -6,6 +6,7 @@ const Testimonial = () => {
   return (
     <div>
        <h2 data-aos="fade-up" className="font-raleway max-w-xl font-semibold text-3xl leading-snug md:text-4xl md:leading-snug">What Our Clients Say – <span className="text-red">Real Stories</span>, Real Results</h2>
+       
        <div className="flex max-md:flex-col gap-7 mt-24 justify-between">
         <div className="xl:flex-[2] flex-[1.5] grid grid-cols-1 md:grid-cols-2 gap-7">
           {

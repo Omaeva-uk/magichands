@@ -11,7 +11,7 @@ const OfferBanner = () => {
       </div>
       <div className="flex  items-center gap-3">
         <Image src="/assets/hero/mail-icon.png" width={20} height={20} alt="Offer Icon" />
-        <p>info@magichandphysiotherapylimited.co.uk</p>
+        <p>info@magichandsphysiotherapylimited.co.uk</p>
       </div>
       </div>
       

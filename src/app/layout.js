@@ -14,8 +14,8 @@ const latoFont = Lato({
 });
 
 export const metadata = {
-  title: "Magichands Physiotherapist",
-  description: "Trusted physiotherapy clinic in the UK offering tailored treatments for pain relief, injury recovery, and improved mobility. Start your journey to better health today!",
+  title: "Magichands Physiotherapy",
+  description: "Trusted physiotherapy clinic in the Swindon, UK offering tailored treatments for pain relief, injury recovery, and improved mobility. Start your journey to better health today!",
 };
 
 export default async function RootLayout({ children }) {
