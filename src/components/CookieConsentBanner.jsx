@@ -17,6 +17,7 @@ const CookieConsentBanner = () => {
   const handleAccept = () => {
     setShowBanner(false);
     var script = document.createElement("script");
+    localStorage.setItem("cookies", true);
 
     
     script.src = "https://www.googletagmanager.com/gtag/js?id=G-CTMD5V4VBY";

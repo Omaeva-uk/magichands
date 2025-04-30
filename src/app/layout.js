@@ -27,7 +27,7 @@ export default async function RootLayout({ children }) {
         className={`${ralewayFont.className} ${latoFont.className} antialiased relative`}
       >
         <OfferBanner/>
-        <div className="max-w-[1200px] xl:max-w-[1400px] mx-auto">
+        <div className="max-w-[1200px] pt-10 xl:max-w-[1400px] mx-auto">
           <Navbar />
         </div>
         <main className="xl:max-w-[1400px] max-w-[1200px] mt-12 px-6 mx-auto">

@@ -19,7 +19,7 @@ export default async function Home() {
       <BookAppointment />
       <Preloader />
       <ModalPopup />
-      <SpecialServiceDisplay />
+      {/* <SpecialServiceDisplay /> */}
     </div>
   );
 }
