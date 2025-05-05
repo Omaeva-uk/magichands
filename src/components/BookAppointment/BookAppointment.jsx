@@ -12,7 +12,7 @@ const BookAppointment = () => {
 
 
     const [result, setResult] = useState("Book an Appointment");
-    const [location, setlocation] = useState("swindon");
+    const [location, setlocation] = useState("cardiff");
 
 
     
@@ -52,10 +52,21 @@ const BookAppointment = () => {
             <div className="grid grid-rows-3 w-full gap-7">
                <div className="overflow-hidden w-full row-span-2 relative rounded-3xl">
                     {/* <Image src="/assets/appointment/map.png" width={400} height={500} alt="Book Appointment Map" /> */}
-                    <video preload="metadata" className="max-h-[300px] w-full object-cover scale-[1.28]" autoPlay playsInline muted loop >
-                        <source src="/assets/location-video.mp4" type="video/mp4" />
-                    </video>
-                    <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl"><Link href="https://maps.app.goo.gl/u7AGDc4RinaTUi537" target="_blank"> {location === "swindon" ? <p>📍 Room 5, Simply Gym Swindon West</p> : <p>📍 Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX</p>}</Link></div>
+                    {/* <video preload="metadata" className="max-h-[300px] w-full object-cover scale-[1.28]" autoPlay playsInline muted loop > */}
+                        {
+                            location === "swindon" ? (
+                                <video preload="metadata" key={location} className="max-h-[300px] w-full object-cover scale-[1.28]" autoPlay playsInline muted loop >
+                                <source src= "/assets/location-video.mp4" type="video/mp4" />
+                                </video>
+                            ) : (
+                                <video preload="metadata" key={location} className="max-h-[300px] w-full object-cover scale-[1.28]" autoPlay playsInline muted loop >
+                                <source src= "/assets/location-video-1.mp4" type="video/mp4" />
+                                </video>
+                            )
+                        }
+                        
+                    {/* </video> */}
+                    <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl"><Link href="https://maps.app.goo.gl/u7AGDc4RinaTUi537" target="_blank"> {location === "swindon" ? <p>📍Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX</p> : <p>📍 Step Podiatry Cardiff, 321 Cowbridge Rd E, Cardiff CF5 1JD</p>}</Link></div>
                 </div> 
                 <div className="row-span-1 grid grid-cols-3 gap-7 ">
                     <div className=" text-lg md:text-3xl font-semibold flex justify-center items-center">Now we serve in two locations!</div>
