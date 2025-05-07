@@ -15,7 +15,11 @@ const Hero = () => {
         <h1 className="text-4xl leading-snug  lg:text-5xl font-light mb-5 max-w-[390px] lg:leading-snug">
           Recover, Move <span className=" font-semibold">Better</span> with <span className="font-semibold text-green">Magichands</span>  Physiotherapists!
         </h1>
-        <PrimaryButton icon={true} text="Book Your Session Now" />
+        <div className=" flex flex-col justify-start gap-2">
+          <PrimaryButton icon={true} text="Book Your Session Now" />
+          <p className="font-medium pl-3 text-md">Or call us directly at <span className="font-semibold">07878158530</span>!</p>
+        </div>
+        
       </div>
       <div className="flex-1 relative">
         <Image src="/assets/hero/hero-main-img.png" width={500} height={500} alt="Magichand Physiotherapy" className="mx-auto relative -z-[1]" />
@@ -26,4 +30,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
