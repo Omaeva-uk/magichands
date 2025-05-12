@@ -74,7 +74,7 @@ const ModalPopup = () => {
                               </div>
                               
                               <div>
-                                <h1 className=" text-3xl lg:text-5xl lg:leading-tight max-w-[300px] uppercase leading-tight text-left font-black">3 Sessions for £130</h1>
+                                <h1 className="text-2xl xl:text-3xl lg:leading-tight max-w-[300px] uppercase leading-tight text-left font-black">1x initial assessment and 2x follow up sessions for £130</h1>
                               </div>
                             </div>
                           </div>
