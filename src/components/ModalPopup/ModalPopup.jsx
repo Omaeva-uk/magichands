@@ -65,7 +65,7 @@ const ModalPopup = () => {
                               <div>
                               <div className="flex gap-3 mb-3 items-center">
                                   <Image src="/assets/modal/modal-offer-icon1.png" width={40} height={40} alt="Magichands offer icon" />
-                                  <p className="">Limited time offer</p>
+                                  <p className="">Limited time offer!</p>
                                 </div>
                                 <div className=" w-full justify-between gap-5 items-center">
                                   <p className=" self-start max-w-[300px] text-2xl font-lato font-semibold">Experience the Power of Ultrasound-Guided Injections!</p>
