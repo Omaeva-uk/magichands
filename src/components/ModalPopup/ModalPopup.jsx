@@ -56,7 +56,7 @@ const ModalPopup = () => {
 
   return (
     
-    <div className={`absolute lg:fixed z-[9999]  lg:p-[80px] xl:p-[100px] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
+    <div className={`absolute lg:fixed z-[999] lg:p-[80px] xl:p-[100px] font-raleway text-black inset-0 bg-black/80 ${modalOpen ? 'flex' : 'hidden'} flex justify-center items-start pt-12`}>
        <div className="bg-lighGreen relative p-6 lg:p-12 flex max-lg:flex-col gap-7 justify-center rounded-3xl">
                         <div className=" md:flex-1 max-sm:h-[500px] rounded-3xl">
                           <div className=" relative h-[100%]">

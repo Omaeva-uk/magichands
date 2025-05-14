@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { PrimaryButton } from ".."
+import { PrimaryButton } from "..";
+
 
 const Hero = () => {
   return (
@@ -23,6 +24,7 @@ const Hero = () => {
       </div>
       <div className="flex-1 relative">
         <Image src="/assets/hero/hero-main-img.png" width={500} height={500} alt="Magichand Physiotherapy" className="mx-auto relative -z-[1]" />
+        {/* <Image src="https://res.cloudinary.com/dwtlg8q6n/image/upload/v1747127229/hero-main-img_zxrab2.png" width={500} height={500} alt="Magichand Physiotherapy" className="mx-auto relative -z-[1]" /> */}
         <div className=" absolute top-[16%] left-[23%]"><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand ring image" /></div>
         <div className=" absolute bottom-0 left-[10%]"><Image src="/assets/small-ring.png" width={100} height={100} alt="Magichand ring image" /></div>
       </div>

@@ -66,7 +66,7 @@ const BookAppointment = () => {
                         }
                         
                     {/* </video> */}
-                    <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl"><Link href="https://maps.app.goo.gl/u7AGDc4RinaTUi537" target="_blank"> {location === "swindon" ? <p>📍Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX</p> : <p>📍 Step Podiatry Cardiff, 321 Cowbridge Rd E, Cardiff CF5 1JD</p>}</Link></div>
+                    <div className="bg-lighGreen text-xs absolute -bottom-1 -right-1 p-3 rounded-2xl"><Link href={`${location === "swindon" ? 'https://maps.app.goo.gl/u7AGDc4RinaTUi537' : 'https://maps.app.goo.gl/qPBdoW8aHzRm2kEdA'}`} target="_blank"> {location === "swindon" ? <p>📍Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX</p> : <p>📍 Step Podiatry Cardiff, 321 Cowbridge Rd E, Cardiff CF5 1JD</p>}</Link></div>
                 </div> 
                 <div className="row-span-1 grid grid-cols-3 gap-7 ">
                     <div className=" text-lg md:text-3xl font-semibold flex justify-center items-center">Now we serve in two locations!</div>
