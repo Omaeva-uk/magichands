@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import cookie from "js-cookie";
 
+
 const CookieConsentBanner = () => {
   const [showBanner, setShowBanner] = useState(false);
 
@@ -55,7 +56,6 @@ const CookieConsentBanner = () => {
         <button className="bg-green p-3 rounded-2xl" onClick={handleAccept}>Accept</button>
         <button className="bg-blue p-3 rounded-2xl text-white" onClick={handleReject}>Reject</button>
       </div>
-      
     </div>
   );
 };

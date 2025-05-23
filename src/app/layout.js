@@ -1,4 +1,3 @@
-
 import {Raleway, Lato } from "next/font/google";
 import { OfferBanner, Navbar, Footer, CookieConsentBanner, AosAnimation, Preloader } from "@/components";
 import "./globals.css";

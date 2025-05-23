@@ -3,7 +3,7 @@ const featuredBlog = {
     slug: "diagnostic-ultrasound",
     title: "Diagnostic Musculoskeletal Ultrasound: A Comprehensive Guide for 2025",
     content: "Diagnostic musculoskeletal ultrasound offers real-time imaging for precise diagnosis of soft tissue injuries. Discover how this safe, non-invasive tool continues to transform healthcare in 2025.",
-    cardImg: "/assets/blog/featured/featured-img-1.jpg",
+    cardImg: "/assets/blog/featured/featured-article-1.jpg",
     articleImg: "/assets/blog/featured/featured-article-1.jpg",
     articlePage: [
         {

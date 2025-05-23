@@ -18,8 +18,8 @@ const page = () => {
             </div>
             
             <div className="grid mt-12 lg:mt-24 grid-cols-2 gap-7">
-                <Image src="/assets/service4/main-img-1.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
-                <Image src="/assets/service4/main-img-2.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
+                <Image src="/assets/service7/main-img-1.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
+                <Image src="/assets/service7/main-img-2.jpeg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
             </div>
         </div>
         <div className="mt-12 lg:mt-24">
@@ -36,7 +36,7 @@ const page = () => {
                   }
                 </div>
                 <div className=" rounded-3xl overflow-hidden">
-                  <Image src="/assets/service2/main-img-3.jpg" width={500} height={500} alt="Service Image" style={{width: "100%", height: "100%" , objectFit: "cover"}} />
+                  <Image src="/assets/service7/main-img-3.jpg" width={500} height={500} alt="Service Image" style={{width: "100%", height: "100%" , objectFit: "cover"}} />
                 </div>
               </div>
         </div>
@@ -44,7 +44,7 @@ const page = () => {
             <h2 className="text-3xl font-medium mt-16 text-gray-900 leading-snug">{service8Data.subsection2.heading2}</h2>
             <div className="mt-7 grid grid-cols-1 lg:grid-cols-2 gap-7">
                 <div className=" rounded-3xl overflow-hidden">
-                    <Image src="/assets/service2/main-img-3.jpg" width={500} height={500} alt="Service Image" style={{width: "100%", height: "100%" , objectFit: "cover"}} />
+                    <Image src="/assets/service7/main-img-4.jpg" width={500} height={500} alt="Service Image" style={{width: "100%", height: "100%" , objectFit: "cover"}} />
                 </div>
                 <div className=" grid grid-cols-1 gap-7">
                     {
@@ -72,7 +72,7 @@ const page = () => {
                     }
                 </div>
         </div>
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-7 justify-between h-[400px] p-12 text-white bg-blue rounded-tl-3xl rounded-tr-3xl">
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-7 justify-between h-[400px] p-12 text-white bg-blue rounded-3xl mb-20">
             <div className=" ">
                     <h3 className="text-2xl lg:text-5xl mt-5">Get in Touch Today!</h3>
                     <p className="text-lg lg:text-2xl mt-5 mb-3 max-w-lg">Transform your practice with our Primary Care FCP services.</p>
@@ -82,7 +82,7 @@ const page = () => {
                     </div>
             </div>
             <div className="max-md:hidden relative">
-                <Image src="/assets/service2/main-img-3.jpg" layout="fill" alt="Service Image" className=" object-cover object-center rounded-3xl" />
+                <Image src="/assets/service7/main-img-5.jpg" layout="fill" alt="Service Image" className=" object-cover object-center rounded-3xl" />
             </div>
         </div>
     </div>
