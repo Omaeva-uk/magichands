@@ -179,7 +179,8 @@ const footerData = {
             href: "/#blog"
         },
     ],
-    address: "Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX, England, United Kingdom",
+    addressSwindon: "Room 5, Simply Gym Swindon West, Chelmsford Road, Swindon, SN5 7HX, England, United Kingdom.",
+    addressCardiff: "Step Podiatry Cardiff, 321 Cowbridge Rd E, Cardiff CF5 1JD",
     mail: "info@magichandsphysiotherapylimited.co.uk",
     contact: "+44 7878158530",
 }

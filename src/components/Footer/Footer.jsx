@@ -39,7 +39,8 @@ const Footer = () => {
         
           
           <div className="max-w-xs xl:max-w-sm text-right text-white-400 max-md:mt-5 flex flex-col max-lg:items-start items-end gap-5">
-            <p className="text-left">{footerData.address}</p>
+            <p className="text-left"><span className=" font-bold mr-3">Swindon Location - </span>{footerData.addressSwindon}</p>
+            <p className="text-left"><span className=" font-bold mr-3">Cardiff Location - </span>{footerData.addressCardiff}</p>
             <div className="max-sm:flex max-sm:gap-5 sm:space-y-5 items-center w-full">
               <Link href="mailto:info@magichandphysiotherapylimited.co.uk" className="flex items-center gap-3"><Image src="/assets/footer-mail.png" width={30} height={30} alt="Mail us" /><p className="max-sm:hidden">{footerData.mail}</p></Link>
               <Link href="tel:+497878158530" className="flex items-center gap-3"><Image src="/assets/footer-call.png" width={30} height={30} alt="Call us"/><p className="max-sm:hidden">{footerData.contact}</p></Link>

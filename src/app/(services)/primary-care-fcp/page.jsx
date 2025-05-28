@@ -19,7 +19,7 @@ const page = () => {
             
             <div className="grid mt-12 lg:mt-24 grid-cols-2 gap-7">
                 <Image src="/assets/service7/main-img-1.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
-                <Image src="/assets/service7/main-img-2.jpeg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
+                <Image src="/assets/service7/main-img-2.jpg" width={500}  height={500} alt="Service Image" style={{width: "100%", maxHeight: "441px", objectFit: "cover", borderRadius: "30px"}} />
             </div>
         </div>
         <div className="mt-12 lg:mt-24">
