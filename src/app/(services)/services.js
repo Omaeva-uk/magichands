@@ -443,7 +443,7 @@ const service8Data = {
         list: [
             {
                 id: 1,
-                heading3: "Cost-Effective Appontments",
+                heading3: "Cost-Effective Appointments",
                 para: "Each MSK-related appointment costs only £30, compared to nearly £100 for a GP appointment.",
             },
             {
